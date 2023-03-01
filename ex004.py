@@ -1,0 +1,7 @@
+var = input('Digite algo: ')
+print('Só tem espaços? ', var.isspace())
+print('É númerico? ', var.isnumeric())
+print('É alfabético?', var.isalpha())
+print('É alfanúmerico?', var.isalnum())
+print('Está em maiúsculas?', var.isupper())
+print('Está em minúsculas?', var.islower())
